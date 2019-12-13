@@ -7,7 +7,7 @@ class Artist
   # @@song_count = 0
 
   def songs
-    Song.all.select {|song| song.artist == self}
+    Song.all.select {|song| song.artist == self}  #(not sure how this one is working without soveling song inside @songs)
     # Song.all.each do |song|
     #   if song.artist == self
     #     @songs << song
