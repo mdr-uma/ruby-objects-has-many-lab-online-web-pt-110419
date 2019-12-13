@@ -33,7 +33,7 @@ class Artist
 
    def self.song_count
      Song.all.count
-    # @@song_count
+    # @@song_count     (not sure why this method is not working)
    end
 
 end
