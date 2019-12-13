@@ -8,6 +8,7 @@ class Song
   def initialize(name)
     @name = name
     @@all << self
+    # binding.pry
   end
 
   def self.all
@@ -20,6 +21,5 @@ class Song
     else
       @artist.name
     end
-
   end
 end
